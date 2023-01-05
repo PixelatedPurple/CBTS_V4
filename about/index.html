@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: #00ffa;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+  </style>
+  <link rel="icon" type="image/x-icon" href="/cache/cbts_logo.png">
+  <noscript>Error. Javascript disabled</noscript>
+  <title>CursedBots | About</title>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/plans/index.html">Plans</a></li>
+    <li><a href="/contact/index.html">Contact</a></li>
+    <li><a class="active"  href="/about/index.html">About</a></li>
+    <li><a href="/work/index.html">Our Work</a></li>
+    <li><table style="width:100px;height:50px; color:white">
+        <h6 style="color: black; ">Change Background Color</h6>
+  <tr>
+    <td onclick="bgChange(this.style.backgroundColor)" 
+    ondblclick="bgChange('transparent')"
+    style="background-color:slateblue">
+    </td>
+    <td onclick="bgChange(this.style.backgroundColor)"
+    ondblclick="bgChange('transparent')"
+    style="background-color:darkslategray">
+    </td>
+    
+    <td onclick="bgChange(this.style.backgroundColor)"
+    ondblclick="bgChange('transparent')"
+    style="background-color:dimgray">
+    </td>
+    <td onclick="bgChange(this.style.backgroundColor)"
+    ondblclick="bgChange('transparent')"
+    style="background-color:darkgoldenrod">
+    </td>
+  </tr>
+</table></li>
+
+  </ul>
+
+  <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <p class="pagehead">CursedBots | Alpha { 3.9.15b } | Production Release {v1.5J}</p>
+    <h2>CursedBots | About us</h2><br>
+    <p class="info">CursedBots is an America based full stack development company. We provide websites and backend systems
+    for your small business. With flexible payment options we make it easy to afford and receive your website. CursedBots creates all websites by hand, no automation, no AI, All websites are developed by hand by our developers and delivered directly to you, no middleman. CursedBots also ensure your site`s security. We use <a href="https://cloudflare.com">CloudFlare.</a> Cloudflare is the idustry leader in website security providing the neccessary certificates to secure all traffic. Included in your website package is a domain of your choice ( e.g cursedbots.xyz ). You can even get a custom email address with your domain. The benefits of a custom email address are; Ensure customer security with a unique email, Businesses emails are more proffesional and are unique to <strong>Your Business</strong> you won`t find another one like it.</p><br><br><br>
+    <p class="other">
+      <a href="/about" class="link">Read about us!</a><br><br>
+      <a href="/contact" class="link">Contact for help</a><br><br>
+      <a href="/plans" class="link">Check out our Plans!</a><br><br>
+      <a href="/work" class="link">See our previous work</a><br><br>
+      
+    </p>
+
+</body>
+<script>
+  function bgChange(bg) {
+    document.body.style.background = bg;
+  }
+  function tcChange(tc) {
+    document.body.style.color = tc;
+  }
+</script>
+</html>
