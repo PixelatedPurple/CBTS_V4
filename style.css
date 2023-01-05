@@ -1,0 +1,38 @@
+body {
+    font-size: 15pt;
+    background-color: darkslategray;
+    color: navajowhite;
+}
+.info {
+  border: solid;
+  border-color: darkgray;
+  background-color: dimgray;
+  color: wheat;
+  border-radius: 100px;
+  padding: 25px;
+}
+.other {
+  border: solid;
+  border-color: black;
+  border-radius: 50px;
+  background-color: dimgray;
+  color: antiquewhite;
+  padding: 15px;
+}
+
+.link {
+text-decoration: none;
+border: solid;
+border-color: black;
+border-radius: 250px;
+padding: 5px;
+font-size: 10pt;
+color: white;
+}
+
+.pagehead {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  color: black; 
+}
