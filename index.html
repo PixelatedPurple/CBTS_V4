@@ -35,6 +35,55 @@
       background-color: #555;
       color: white;
     }
+    
+    
+    /* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+    
   </style>
   
   
@@ -92,6 +141,11 @@
     <p class="pagehead">CursedBots | Alpha { 3.9.15b } | Production Release {v1.5J}</p>
     <h2>CursedBots</h2><br>
     <p class="info">Simple, Fast, And reliable website hosting solutions. <br>At CursedBots we strive to create modern solutions to modern problems. <br>A problem nowadays in our modern world, especially for small businesses is no way to advertise your content under your own branding. At CursedBots we make it easy to create, and host your website with the highest level of security possible to protect your sensitive data. We offer great plans from pricing, to product. Try us today and get a hand made demo for free.</p><br><br><br>
+    
+    <div class="tooltip">Announcement
+  <span class="tooltiptext">Head over to <a href="https://news.cursedbots.xyz" class="link">Our News Site to recieve updates on ongoing projects.</span>
+</div>
+    
     <p class="other">
       <a href="https://code.cursedbots.xyz" class="link">Try our new code editor!</a><br><br>
       <a href="/project/index.html" class="link">QR Code Generator</a><br><br>
