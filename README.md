@@ -27,4 +27,6 @@ Production of this code in any way is prohibited Violators will be prosecuted.
 
 This Repository is Strictly for learning purposes. All Files along with the data contained are Copyright of CursedBots
 
+This site will be depreciated 4/20/23 for the new site
 
+https://beta.cursedbots.xyz
